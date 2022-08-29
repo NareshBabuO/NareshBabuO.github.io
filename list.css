@@ -1,0 +1,126 @@
+h1,h2 {
+    color: brown;
+    /* upper case & Lowercase */
+    text-transform: uppercase;
+    text-decoration: underline;
+
+ }
+ h1 {
+    padding: 20px 5px 20px 5px;
+    border: 1px dotted red;
+    margin: 20px;
+ }
+tr{
+    color: aqua;
+}
+tr:hover{
+    color: blueviolet;
+    background-color: black;
+}
+body{
+    
+   
+    background-image: url(E:\\Downloads\\wallpapper.jpg);
+    height: 100%; 
+    background-repeat: no-repeat;   
+    background-size: cover;    
+}
+.box{
+   border:2px solid yellowgreen;
+   height: 100px;
+   width: 300px;
+}
+.rect{
+    border: 1px solid black;
+    height: 50px;
+    width: 100px;
+
+}
+.rects{
+    border: 8px solid white;
+    height: 140px;
+    width: 280px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+div p{
+    color: darkgrey;
+}
+/* .inside{
+    border: 2px solid violet;
+    height: 100px;
+    width: 300px;
+/* } 
+ /* Child selector */
+div >p{
+    color: chartreuse;
+}
+.center{
+    text-align: center;
+}
+.color{
+       color: red;
+}
+.padding {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(171, 21, 229);
+  }
+  
+  .padding li  {
+    float: left;
+  }
+  /* Navigation bar */
+ .padding  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+  }
+  .padding li a:active{
+   background-color: chartreuse;
+  }
+  
+  .padding li a:hover {
+    background-color: #111;
+  }
+  /* Adjecent tag */
+  div + p{
+    background-color: black;
+  }
+  /* Genral adjecent tag */
+  div ~ p {
+    background-color: coral;
+  }
+  .fixed {
+    position: fixed;
+    top: 0%;
+  }
+  .relative {
+    color: violet;
+    position: fixed;
+    bottom: 0%;
+  }
+  .image {
+    position: relative;
+  }
+  .topleft {
+    color: aliceblue;
+    position: absolute;
+    top:0;
+    left: 0;
+  }
+  .topright {
+    color: blueviolet;
+    position: absolute;
+    top: 0;
+    left: 500px;
+  }
